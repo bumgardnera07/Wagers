@@ -23,3 +23,8 @@ Phones/ Smart Watches
 
 Bonus:
 
+Enter what are the odds numbers during countdown screen and have the app display the results/ determine the outcomes
+
+make shot bets with google-able terms. Automatically applies outcomes
+
+
