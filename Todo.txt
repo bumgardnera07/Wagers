@@ -1,0 +1,25 @@
+User Stories
+
+Create Users with e-mail, accounts for tracking 
+
+Each User should have a list of what they owe
+
+There should be a view for seeing all debts across all users in a group
+
+Users can join groups with visibility for same wager data
+
+Users can create private wagers
+
+Make updates to data from smart watch, smart phone, alexa, web app?
+
+Model
+How will data be stored? Google Sheet
+use the Sheets API to submit new data
+
+UX/ UI
+
+Phones/ Smart Watches
+
+
+Bonus:
+
