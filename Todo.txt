@@ -28,3 +28,8 @@ Enter what are the odds numbers during countdown screen and have the app display
 make shot bets with google-able terms. Automatically applies outcomes
 
 
+Technology:
+
+Firebase: https://firebase.google.com/?gclid=Cj0KCQiA7briBRD7ARIsABhX8aD0IQpcLbTVthwCluVuu8_N7vSqbo3W1ulLBP-tl7BjdIopD07kuagaAmgIEALw_wcB development/ deployment resources/ db
+
+Flutter: https://flutter.io/  for cross platform deployment
