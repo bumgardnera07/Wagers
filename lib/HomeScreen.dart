@@ -8,7 +8,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
   final _widgetOptions = [
     Text('Index 0: Home'),
-    BetsList(bets: List.generate(20, (i) => Bet('bet $i', 'description for bet $i', new DateTime.now(), "initiator $i",
+    BetsList(bets: List.generate(40, (i) => Bet('bet $i', 'description for bet $i', new DateTime.now(), "initiator $i",
         'target $i'))),
     Text('Index 2: Settings'),
   ];
