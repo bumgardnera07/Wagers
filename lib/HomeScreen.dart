@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:shot_bets/Bet.dart';
 import 'package:shot_bets/CreateBetIconButton.dart';
 import 'package:shot_bets/BetsList.dart';
+import 'dart:math';
 
 class _HomeScreenState extends State<HomeScreen> {
   int _selectedIndex = 0;
@@ -9,7 +10,7 @@ class _HomeScreenState extends State<HomeScreen> {
   final _widgetOptions = [
     Text('Index 0: Home'),
     BetsList(bets: List.generate(40, (i) => Bet('bet $i', 'description for bet $i', new DateTime.now(), "initiator $i",
-        'target $i'))),
+        'target $i', "winner", Random().nextInt(10)))),
     Text('Index 2: Settings'),
   ];
 

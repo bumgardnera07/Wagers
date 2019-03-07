@@ -49,7 +49,7 @@ class BetsListGroupView extends StatelessWidget {
         itemCount: bets.length,
         itemBuilder: (context, index) {
           return ListTile(
-            title: Text(bets[index].title),
+            title: Text(bets[index].title + " for " + bets[index].stakes.toString() + " shots"),
             onTap: () {
               Navigator.push(
                 context,
