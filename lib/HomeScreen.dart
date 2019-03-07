@@ -1,12 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:shot_bets/BodyBets.dart';
+import 'package:shot_bets/Bet.dart';
+import 'package:shot_bets/BetsList.dart';
 
 class _HomeScreenState extends State<HomeScreen> {
   int _selectedIndex = 0;
 
   final _widgetOptions = [
     Text('Index 0: Home'),
-    BodyBets(bets: List.generate(20, (i) => Bet('bet $i', 'description for bet $i', new DateTime.now(), "initiator $i",
+    BetsList(bets: List.generate(20, (i) => Bet('bet $i', 'description for bet $i', new DateTime.now(), "initiator $i",
         'target $i'))),
     Text('Index 2: Settings'),
   ];
