@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:shot_bets/Bet.dart';
+import 'package:shot_bets/CreateBetIconButton.dart';
 import 'package:shot_bets/BetsList.dart';
 
 class _HomeScreenState extends State<HomeScreen> {
@@ -18,13 +19,7 @@ class _HomeScreenState extends State<HomeScreen> {
       appBar: AppBar(
         title: Text('Shot Bets!'),
         actions: <Widget>[
-          IconButton(
-            icon: Icon(Icons.add),
-            tooltip: 'Add a new bet',
-            onPressed: () {
-              print('open new bet screen');
-            },
-          ),
+          new CreateBetIconButton(),
         ],
       ),
       body: Center(
